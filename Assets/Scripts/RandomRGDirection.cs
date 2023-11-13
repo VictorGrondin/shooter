@@ -4,17 +4,17 @@ using UnityEngine;
 
 public class RandomRGDirection : MonoBehaviour
 {
-    public float vitesse = 0.007f;
+    public Rigidbody2D myRigidbody2D;
     // Start is called before the first frame update
     void Start()
     {
-
+        myRigidbody2D.velocity = new Vector2(Random.Range(-4f, 1f), Random.Range(-4f, 1f)) * 0.30f;
        
     }
 
     // Update is called once per frame
     void Update()
     {
-        transform.position += Vector3.down * vitesse;
+
     }
 }

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6488187506806844336}
   - component: {fileID: 7648189001331404202}
   - component: {fileID: 8650566655662361808}
-  - component: {fileID: 3607958900641144672}
+  - component: {fileID: -2008565922121018691}
   m_Layer: 0
   m_Name: Hexagon Flat-Top
   m_TagString: Untagged
@@ -137,7 +137,7 @@ PolygonCollider2D:
       - {x: 0.5, y: 0}
       - {x: 0.25, y: 0.43359375}
   m_UseDelaunayMesh: 0
---- !u!114 &3607958900641144672
+--- !u!114 &-2008565922121018691
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -149,4 +149,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 606eaa5d432680641bba68158af1d6c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vitesse: 0.007
+  myRigidbody2D: {fileID: 0}
