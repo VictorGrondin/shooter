@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Asteroid_Mouvement : MonoBehaviour
+public class asteroid_mouvement : MonoBehaviour
 {
     Rigidbody2D physics;
     public float vel;
