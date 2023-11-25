@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ff638f6f2c57e094db5d9977d29095c5
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - asteroid: {fileID: 6128441405271233860, guid: 380c184ecf7028c47902e62eb91c4e93, type: 3}
+  - texty: {instanceID: 0}
+  - govertext: {instanceID: 0}
+  - restart_text: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
